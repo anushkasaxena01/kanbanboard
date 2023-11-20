@@ -1,0 +1,31 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
